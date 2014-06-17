@@ -41,18 +41,12 @@ hit3 = pygame.mixer.Sound('hit3.wav')
 hit4 = pygame.mixer.Sound('hit4.wav')
 hit5 = pygame.mixer.Sound('hit5.wav')
 
-
-
-
-
-
 bg = pygame.image.load("map.png")
 
 Screen = (640,480)
 pygame.display.set_caption("Bullet Mania")
 icon = pygame.Surface((1,1)); icon.set_alpha(0); pygame.display.set_icon(icon)
 Surface = pygame.display.set_mode(Screen)
-
 
 clock = pygame.time.Clock()
 
